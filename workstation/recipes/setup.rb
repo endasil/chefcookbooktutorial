@@ -9,5 +9,6 @@ end
 
 template '/etc/motd' do
   source 'motd.erb'
+  variables:name => 'jonas'
 end
 
